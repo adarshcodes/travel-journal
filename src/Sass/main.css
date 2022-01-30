@@ -16,6 +16,7 @@ body {
 
 body {
   font-family: "Inter", sans-serif;
+  color: #2b283a;
 }
 
 .navbar {
@@ -37,5 +38,81 @@ body {
   color: #ffffff;
   margin-left: 1rem;
   font-size: 2.5rem;
+}
+
+.main-section {
+  padding: 10rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  height: 30rem;
+  margin-bottom: 8rem;
+}
+
+.card__image {
+  width: 22rem;
+  height: 100%;
+  object-fit: cover;
+  margin-right: 2.5rem;
+  border-radius: 1.5rem;
+}
+
+.card--details {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card--details__location {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+
+.card--details__location i {
+  color: #f55a5a;
+  font-size: 2rem;
+  margin-right: 0.5rem;
+}
+
+.card--details__location a {
+  font-size: 1.5rem;
+  color: #918e9b;
+}
+
+.card--details__country {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-right: 1rem;
+}
+
+.card--details__title {
+  font-size: 4rem;
+  margin-bottom: 2.5rem;
+}
+
+.card--details__date {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.card--details__description {
+  font-size: 1.5rem;
+  max-width: 70%;
+  line-height: 2.5rem;
 }
 /*# sourceMappingURL=main.css.map */
