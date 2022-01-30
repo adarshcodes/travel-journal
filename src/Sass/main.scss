@@ -1,8 +1,11 @@
 // Abstract
-@import "./abstract/mixins";
-@import "./abstract/variables";
+@import "./Abstract/mixins";
+@import "./Abstract/variables";
 
 // Base
-@import "./base/animations";
-@import "./base/base";
-@import "./base/typography";
+@import "./Base/animations";
+@import "./Base/base";
+@import "./Base/typography";
+
+// Components
+@import "./Components/navbar";

@@ -1,0 +1,17 @@
+.navbar {
+	@include flex-row;
+	@include shadow;
+	background-color: $color-red;
+	height: 8rem;
+
+	i {
+		font-size: 4rem;
+		color: $color-primary-light;
+	}
+
+	&__logo-text {
+		color: $color-primary-light;
+		margin-left: 1rem;
+		font-size: 2.5rem;
+	}
+}

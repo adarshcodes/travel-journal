@@ -13,4 +13,29 @@ html {
 body {
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  background-color: #f55a5a;
+  height: 8rem;
+}
+
+.navbar i {
+  font-size: 4rem;
+  color: #ffffff;
+}
+
+.navbar__logo-text {
+  color: #ffffff;
+  margin-left: 1rem;
+  font-size: 2.5rem;
+}
 /*# sourceMappingURL=main.css.map */
