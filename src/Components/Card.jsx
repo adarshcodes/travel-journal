@@ -4,7 +4,11 @@ class Card extends React.Component {
 	render() {
 		return (
 			<div className="card">
-				<img src={this.props.item.imageUrl} className="card__image" />
+				<img
+					src={this.props.item.imageUrl}
+					alt="Places"
+					className="card__image"
+				/>
 				<div className="card--details">
 					<div className="card--details__location">
 						<i class="fad fa-map-marker-alt"></i>
